@@ -17,5 +17,5 @@ EXPOSE 80
 ENV NAME World
 
 # Run app.py when the container launches
-iCMD ["python", "app.py"]
+CMD ["python", "app.py"]
 
