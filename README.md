@@ -23,7 +23,7 @@ Approach
 1) created a simple python app ( app.py )
 2) verified docker and github are synced with my local machine and with each other.
 3) configured a Dockerfile and requirements.txt ( same repository as the app)
-4) build and ran the docker image ( browse : http://0.0.0.0:4000)
+4) build and ran the docker image ( browse : http://192.168.99.100:4000)
 
    * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
    172.17.0.1 - - [18/Aug/2018 23:52:27] "GET / HTTP/1.1" 200 -
@@ -35,5 +35,7 @@ Approach
 
 
 docker-machine ip : 192.168.99.100
-docker image  : dockertest  
+docker image  : dockertest
+
+
 image id      : efd124d3c96c
