@@ -17,13 +17,13 @@ Python app on a Docker container staged in AWS
    change to the repo
 7. Provide a url to the api application. We will test the pipeline by making a code change and watching
    our change show up on the url provided
-   
+
 ==============================================================================================================
 Approach
 ==============================================================================================================
-1) used the provided python app.
+1) created a simple python app ( app.py )
 2) verified docker and github are synced with my local machine and with each other.
-3) created a dockerfile and requirements.txt ( same repository as the app)
+3) configured a Dockerfile and requirements.txt ( same repository as the app)
 4) build and ran the docker image ( browse : http://0.0.0.0:4000)
 
    * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
