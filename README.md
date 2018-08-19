@@ -1,8 +1,7 @@
 
-==============================================================================================================
+===========================================
 Python app on a Docker container staged in AWS
-==============================================================================================================
-
+===========================================
 1. Fork this repo into your own github account
 2. Get a simple api application running in the language of your choice. A sample flask application is
    provided in app.py. Feel free to use that if you want. It needs to listen on a single endpoint and return
@@ -18,9 +17,9 @@ Python app on a Docker container staged in AWS
 7. Provide a url to the api application. We will test the pipeline by making a code change and watching
    our change show up on the url provided
 
-==============================================================================================================
+===========================================
 Approach
-==============================================================================================================
+===========================================
 1) created a simple python app ( app.py )
 2) verified docker and github are synced with my local machine and with each other.
 3) configured a Dockerfile and requirements.txt ( same repository as the app)
