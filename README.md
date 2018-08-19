@@ -31,7 +31,7 @@ Approach
 
 5) pushed the docker image to dockerhub
 6) added, commited and pushed the repo to Github
-7) verified the app is still run
+7) verified the app if it runs locally as well as from container image
 
 
 docker-machine ip : 192.168.99.100
