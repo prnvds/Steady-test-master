@@ -5,6 +5,5 @@ python:
 
 virtualenv:
   system_site_packages: true
-  
-script:
-  - app.py
+
+script: app.py
