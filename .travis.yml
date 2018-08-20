@@ -6,4 +6,7 @@ python:
 virtualenv:
   system_site_packages: true
 
+services:
+  - docker
+
 script: python app.py
