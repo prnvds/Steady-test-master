@@ -32,10 +32,6 @@ Approach
 5) pushed the docker image to dockerhub
 6) added, commited and pushed the repo to Github
 7) verified the app if it runs locally as well as from container image
-
+8) shipped the docker container to AWS EC2 using cloudformation.
 
 docker-machine ip : 192.168.99.100
-docker image  : dockertest
-
-
-image id      : efd124d3c96c
