@@ -33,5 +33,5 @@ Approach
 6) added, commited and pushed the repo to Github
 7) verified the app if it runs locally as well as from container image
 8) shipped the docker container to AWS EC2 using cloudformation.
-
+test the webpage with port : http://ec2-18-204-16-89.compute-1.amazonaws.com:4000
 docker-machine ip : 192.168.99.100
